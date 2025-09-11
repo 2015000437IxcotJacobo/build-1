@@ -75,6 +75,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -172,6 +174,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.comboBox2);
+            this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.dateTimePicker1);
             this.groupBox1.Controls.Add(this.textBox17);
             this.groupBox1.Controls.Add(this.textBox16);
@@ -314,7 +318,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(500, 38);
+            this.textBox6.Location = new System.Drawing.Point(500, 40);
             this.textBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(277, 26);
@@ -557,6 +561,49 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Opciones";
             // 
+            // comboBox1
+            // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Alta Verapaz",
+            "Baja Verapaz",
+            "Chimaltenango",
+            "Chiquimula",
+            "Escuintla",
+            "Guatemala",
+            "Huehuetenango",
+            "Izabal",
+            "Jalapa",
+            "Jutiapa",
+            "Petén",
+            "Quetzaltenango",
+            "Quiché",
+            "Retalhuleu",
+            "Sacatepéquez",
+            "San Marcos",
+            "Santa Rosa",
+            "Sololá",
+            "Suchitepéquez",
+            "Totonicapán",
+            "Zacapa",
+            "El Progreso"});
+            this.comboBox1.Location = new System.Drawing.Point(193, 208);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(227, 28);
+            this.comboBox1.TabIndex = 36;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.Enabled = false;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(458, 208);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(223, 28);
+            this.comboBox2.TabIndex = 37;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -627,6 +674,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 

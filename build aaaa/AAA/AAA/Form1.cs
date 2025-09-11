@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -38,32 +39,10 @@ namespace AAA
                 conexion.Close();
             }
         }
-        private void colocarPlacehoderUser(object sender, EventArgs e)
-        {
-
-        }
-
-        private void quitarPlacehoderUser(object sender, EventArgs e)
-        {
-
-        }
-        private void colocarPlacehoderPass(object sender, EventArgs e)
-        {
-            
-        }
-        private void salirPass(object sender, EventArgs e)
-        {
-
-        }
-
-        private void quitarPlacehoderPass(object sender, EventArgs e)
-        {
-
-        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-          
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -229,6 +208,95 @@ namespace AAA
                 conexion.Close();
                 registros();
             }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedIndex > -1)
+            {
+                comboBox2.Enabled = true;
+            }
+            comboBox2.Items.Clear();
+            dep();
+
+        }
+        private void dep()
+        {
+            String[] items = null;
+            switch (comboBox1.SelectedItem)
+            {
+                case "Alta Verapaz":
+                     items = new string[] {"Chahal", "Chisec", "Cobán", "Fray Bartolomé de las Casas", "La Tinta", "Lanquín", "Panzós","Raxruhá", "San Cristóbal Verapaz", "San Juan Chamelco", "San Pedro Carchá", "Santa Cruz Verapaz","Cahabón", "Senahú", "Tamahú", "Tactic", "Tucurú"};
+                    break;
+                case "Baja Verapaz":
+                     items = new string[] {"Cubulco", "Granados", "Purulhá", "Rabinal", "Salamá", "San Jerónimo", "San Miguel Chicaj", "Santa Cruz el Chol"};
+                    break;
+                case "Chimaltenango":
+                     items = new string[] { "Chimaltenango", "San Martín Jilotepeque", "Parramos", "El Tejar", "San José Poaquil", "Acatenango", "Santa Apolonia", "Tecpán Guatemala", "Patzún", "Santa Cruz Balanyá", "Patzicia", "Pochuta", "San Pedro Yepocapa", "Zaragoza" };
+                    break;
+                case "Chiquimula":
+                     items = new string[] { "Chiquimula", "Olopa", "San Juan Ermita", "La Unión", "Camotán", "Jocotán", "Concepción Las Minas", "Esquipulas" };
+                    break;
+                case "El Progreso":
+                    items = new string[] {"El Jícaro", "Guastatoya", "Morazán", "San Agustín Acasaguastlán", "San Antonio La Paz","San Cristóbal Acasaguastlán", "Sanarate", "Sansare"};                 
+                    break;
+                case "Escuintla":
+                    items = new string[] {"Escuintla", "Guanagazapa", "Iztapa", "La Democracia", "La Gomera", "Masagua", "Nueva Concepción","Palín", "San José", "San Vicente Pacaya", "Santa Lucía Cotzumalguapa", "Sipacate", "Siquinalá", "Tiquisate"};
+                    break;
+                case "Guatemala":
+                    items = new string[] {"Amatitlán", "Chinautla", "Chuarrancho", "Ciudad de Guatemala", "Fraijanes", "Mixco", "Palencia","San José del Golfo", "San José Pinula", "San Juan Sacatepéquez", "San Miguel Petapa", "San Pedro Ayampuc", "San Pedro Sacatepéquez", "San Raymundo", "Santa Catarina Pinula", "Villa Canales", "Villa Nueva"};
+                    break;
+                case "Huehuetenango":
+                    items = new string[] {"Aguacatán", "Chiantla", "Colotenango", "Concepción Huista", "Cuilco", "Huehuetenango","Jacaltenango", "La Democracia", "La Libertad", "Malacatancito", "Nentón", "Petatán","San Antonio Huista", "San Gaspar Ixchil", "San Ildefonso Ixtahuacán", "San Juan Atitán","San Juan Ixcoy", "San Mateo Ixtatán", "San Miguel Acatán", "San Pedro Nécta", "San Pedro Soloma","San Rafael La Independencia", "San Rafael Pétzal", "San Sebastián Cotán", "San Sebastián Huehuetenango","Santa Ana Huista", "Santa Bárbara", "Santa Cruz Barillas", "Santa Eulalia", "Santiago Chimaltenango","Tectitán", "Todos Santos Cuchumatán", "Unión Cantinil"};
+                    break;
+                case "Izabal":
+                    items = new string[] {"El Estor", "Livingston", "Los Amates", "Morales", "Puerto Barrios"};
+                    break;
+                case "Jalapa":
+                    items = new string[] {"Jalapa", "Mataquescuintla", "Monjas", "San Carlos Alzatate", "San Luis Jilotepeque", "San Manuel Chaparrón", "San Pedro Pinula"};
+                    break;
+                case "Jutiapa":
+                    items = new string[] {"Agua Blanca", "Asunción Mita", "Atescatempa", "Comapa", "Conguaco", "El Adelanto", "El Progreso","Jalpatagua", "Jutiapa", "Moyuta", "Pasaco", "Quesada", "San José Acatempa", "Santa Catarina Mita","Yupiltepeque", "Zapotitlán"};
+                    break;
+                case "Petén":
+                    items = new string[] {"Dolores", "El Chal", "Isla de Flores (Santa Elena de la Cruz)", "La Libertad", "Las Cruces","Melchor de Mencos", "Poptún", "San Andrés", "San Benito", "San Francisco", "San José", "San Luis","Santa Ana", "Sayaxché"};
+                    break;
+                case "Quetzaltenango ":
+                    items = new string[] {"Almolonga", "Cabricán", "Cajolá", "Cantel", "Colomba Costa Cuca", "Concepción Chiquirichapa","El Palmar", "Flores Costa Cuca", "Génova", "Huitán", "La Esperanza", "Olintepeque","Palestina de Los Altos", "Quetzaltenango", "Salcajá", "San Carlos Sija", "San Francisco La Unión","San Juan Ostuncalco", "San Martín Sacatepéquez", "San Mateo", "San Miguel Sigüilá", "Sibilia", "Zunil"};
+                    break;
+                case "Quiché":
+                    items = new string[] {"Canillá", "Chajul", "Chicamán", "Chiché", "Santo Tomás Chichicastenango", "Chinique", "Cunén","Ixcán", "Joyabaj", "Nebaj", "Pachalum", "Patzité", "Sacapulas", "San Andrés Sajcabajá","San Antonio Ilotenango", "San Bartolomé Jocotenango", "San Juan Cotzal", "San Pedro Jocopilas","Santa Cruz del Quiché", "Uspantán", "Zacualpa"};
+                    break;
+                case "Sacatepéquez":
+                    items = new string[] {"Alotenango", "Antigua Guatemala", "Ciudad Vieja", "Jocotenango", "Magdalena Milpas Altas","Pastores", "San Antonio Aguas Calientes", "San Bartolomé Milpas Altas", "San Lucas Sacatepéquez","San Miguel Dueñas", "Santa Catalina Barahona", "Santa Lucía Milpas Altas", "Santa María de Jesús","Santiago Sacatepéquez", "Santo Domingo Xenacoj", "Sumpango"};
+                    break;
+                case "San Marcos":
+                    items = new string[] {"Ayutla", "Catarina", "Comitancillo", "Concepción Tutuapa", "El Quetzal", "El Tumbador", "Esquipulas Palo Gordo","Ixchiguán", "La Blanca", "La Reforma", "Malacatán", "Nuevo Progreso", "Ocós", "Pajapita", "Río Blanco","San Antonio Sacatepéquez", "San Cristóbal Cucho", "San José El Rodeo", "San José Ojetenam", "San Lorenzo","San Marcos", "San Miguel Ixtahuacán", "San Pablo", "San Pedro Sacatepéquez", "San Rafael Pie de la Cuesta","Sibinal", "Sipacapa", "Tacaná", "Tajumulco", "Tejutla"};
+                    break;
+                case "Santa Rosa":
+                    items = new string[] {"Barberena", "Casillas", "Chiquimulilla", "Cuilapa", "Guazacapán", "Nueva Santa Rosa", "Oratorio","Pueblo Nuevo Viñas", "San Juan Tecuaco", "San Rafael Las Flores", "Santa Cruz Naranjo","Santa María Ixhuatán", "Santa Rosa de Lima", "Taxisco"};
+                    break;
+                case "Sololá":
+                    items = new string[] {"Concepción", "Nahualá", "Panajachel", "San Andrés Semetabaj", "San Antonio Palopó", "San José Chacayá","San Juan La Laguna", "San Lucas Tolimán", "San Marcos La Laguna", "San Pablo La Laguna", "San Pedro La Laguna","Santa Catarina Ixtahuacán", "Santa Catarina Palopó", "Santa Clara La Laguna", "Santa Cruz La Laguna","Santa Lucía Utatlán", "Santa María Visitación", "Santiago Atitlán", "Sololá"};
+                    break;
+                case "Suchitepéquez":
+                    items = new string[] {"Chicacao", "Cuyotenango", "Mazatenango", "Patulul", "Pueblo Nuevo", "Río Bravo", "San Antonio Suchitepéquez","San Bernardino", "San Felipe", "San Francisco Zapotitlán", "San José El Idolo", "San Jorge","Santo Domingo Suchitepéquez", "Santo Tomás La Unión"};
+                    break;
+                case "Totonicapán":
+                    items = new string[] {"Momostenango", "San Andrés Xecul", "San Bartolo", "San Cristóbal Totonicapán", "San Francisco el Alto","San José Chacayá", "San Miguel Totonicapán", "Santa Lucía La Reforma", "Totonicapán"};
+                    break;
+                case "Zacapa":
+                    items = new string[] {"Cabañas", "Estanzuela", "Huité", "La Unión", "Las Flores", "Nueva Linda", "Río Hondo", "San Diego","San Jorge", "Teculután", "Usumatlán", "Zacapa", "Gualán"};
+                    break;
+                case "Retalhuleu":
+                    items = new string[] {"Champerico","El Asintal","Nuevo San Carlos","Retalhuleu","San Andrés Villa Seca","San Felipe","San Martín Zapotitlán","San Sebastián","Santa Cruz Muluá"};
+                    break;
+                default:
+                    items = new string[] { "" };
+                    break;
+            }
+            comboBox2.Items.AddRange(items);
+            
         }
     }
 }
