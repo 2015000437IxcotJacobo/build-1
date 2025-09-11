@@ -1,21 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\AAA\\",
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|c:\\users\\dell\\source\\repos\\aaa\\aaa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|solutionrelative:aaa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|C:\\Users\\DELL\\source\\repos\\AAA\\aaa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|solutionrelative:aaa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|C:\\Users\\DELL\\source\\repos\\AAA\\aaa\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\aaa\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|solutionrelative:aaa\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|C:\\Users\\DELL\\source\\repos\\AAA\\aaa\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|c:\\users\\dell\\documents\\github\\build-1\\build aaaa\\aaa\\aaa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|solutionrelative:aaa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\aaa\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|solutionrelative:aaa\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\aaa\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|solutionrelative:aaa\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\aaa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|solutionrelative:aaa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\aaa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|solutionrelative:aaa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\aaa\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{817238BA-6E06-4D8D-9686-F790DDF31CE6}|AAA\\AAA.csproj|solutionrelative:aaa\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,55 +38,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AAA\\AAA\\Form2.cs",
-              "RelativeDocumentMoniker": "AAA\\Form2.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AAA\\AAA\\Form2.cs",
-              "RelativeToolTip": "AAA\\Form2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T14:34:14.522Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form2.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AAA\\AAA\\Form2.cs",
-              "RelativeDocumentMoniker": "AAA\\Form2.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AAA\\AAA\\Form2.cs [Dise\u00F1o]",
-              "RelativeToolTip": "AAA\\Form2.cs [Dise\u00F1o]",
+              "Title": "Form3.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\AAA\\Form3.cs",
+              "RelativeDocumentMoniker": "AAA\\Form3.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\AAA\\Form3.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AAA\\Form3.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T14:31:29.608Z"
+              "WhenOpened": "2025-09-11T13:32:16.587Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AAA\\AAA\\Form1.cs",
-              "RelativeDocumentMoniker": "AAA\\Form1.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AAA\\AAA\\Form1.cs",
-              "RelativeToolTip": "AAA\\Form1.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAQwE4AAAA0AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\AAA\\Form3.cs",
+              "RelativeDocumentMoniker": "AAA\\Form3.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\AAA\\Form3.cs",
+              "RelativeToolTip": "AAA\\Form3.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAIA8wD8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T13:16:21.055Z",
+              "WhenOpened": "2025-09-11T00:37:56.657Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\AAA\\AAA\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\AAA\\Form1.cs",
               "RelativeDocumentMoniker": "AAA\\Form1.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\AAA\\AAA\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\AAA\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "AAA\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-09T13:08:33.189Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\AAA\\Form1.cs",
+              "RelativeDocumentMoniker": "AAA\\Form1.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\AAA\\Form1.cs",
+              "RelativeToolTip": "AAA\\Form1.cs",
+              "ViewState": "AQIAANcAAAAAAAAAAAAhwDMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T13:16:21.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\AAA\\Form2.cs",
+              "RelativeDocumentMoniker": "AAA\\Form2.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\AAA\\Form2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AAA\\Form2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T14:31:29.608Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\AAA\\Program.cs",
+              "RelativeDocumentMoniker": "AAA\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\AAA\\Program.cs",
+              "RelativeToolTip": "AAA\\Program.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAASwBIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T13:39:34.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\AAA\\Form2.cs",
+              "RelativeDocumentMoniker": "AAA\\Form2.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\GitHub\\build-1\\build aaaa\\AAA\\AAA\\Form2.cs",
+              "RelativeToolTip": "AAA\\Form2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T14:34:14.522Z",
+              "EditorCaption": ""
             }
           ]
         }
