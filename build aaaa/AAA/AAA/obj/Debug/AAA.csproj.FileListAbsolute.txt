@@ -34,3 +34,16 @@ C:\Users\jaixc\Downloads\proyecto aldo castaneda\build aaaa\AAA\AAA\obj\Debug\AA
 C:\Users\jaixc\Downloads\proyecto aldo castaneda\build aaaa\AAA\AAA\obj\Debug\AAA.csproj.CoreCompileInputs.cache
 C:\Users\jaixc\Downloads\proyecto aldo castaneda\build aaaa\AAA\AAA\obj\Debug\AAA.exe
 C:\Users\jaixc\Downloads\proyecto aldo castaneda\build aaaa\AAA\AAA\obj\Debug\AAA.pdb
+C:\Users\DELL\Documents\GitHub\build-1\build aaaa\AAA\AAA\bin\Debug\AAA.exe.config
+C:\Users\DELL\Documents\GitHub\build-1\build aaaa\AAA\AAA\bin\Debug\AAA.exe
+C:\Users\DELL\Documents\GitHub\build-1\build aaaa\AAA\AAA\bin\Debug\AAA.pdb
+C:\Users\DELL\Documents\GitHub\build-1\build aaaa\AAA\AAA\obj\Debug\AAA.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\GitHub\build-1\build aaaa\AAA\AAA\obj\Debug\AAA.exe.config
+C:\Users\DELL\Documents\GitHub\build-1\build aaaa\AAA\AAA\obj\Debug\AAA.Form1.resources
+C:\Users\DELL\Documents\GitHub\build-1\build aaaa\AAA\AAA\obj\Debug\AAA.Form2.resources
+C:\Users\DELL\Documents\GitHub\build-1\build aaaa\AAA\AAA\obj\Debug\AAA.Form3.resources
+C:\Users\DELL\Documents\GitHub\build-1\build aaaa\AAA\AAA\obj\Debug\AAA.Properties.Resources.resources
+C:\Users\DELL\Documents\GitHub\build-1\build aaaa\AAA\AAA\obj\Debug\AAA.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\GitHub\build-1\build aaaa\AAA\AAA\obj\Debug\AAA.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\GitHub\build-1\build aaaa\AAA\AAA\obj\Debug\AAA.exe
+C:\Users\DELL\Documents\GitHub\build-1\build aaaa\AAA\AAA\obj\Debug\AAA.pdb
