@@ -24,50 +24,27 @@ namespace AAA
         String passPlaceHolder = "Contraseña";
         Boolean verActivado = false;
        
-        private void button1_Click(object sender, EventArgs e)
-        {
-         
-        }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-      
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-        
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-         
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-                
-            
-        }
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            if (textBox1.Text == "Usuario" && textBox2.Text == "Contraseña")
+            conexion.Open();
+            string consulta = "select * from loginA where usuario= '" + textBox1.Text + "' and contrasena='" + textBox2.Text + "'";
+            SqlCommand comando = new SqlCommand(consulta, conexion);
+            SqlDataReader verificar;
+            verificar = comando.ExecuteReader();
+
+            if (verificar.HasRows == true)
             {
-                MessageBox.Show("Bienvenido.");
-                Form1 reg = new Form1();
-                reg.Show();
+                Form1 db = new Form1();
                 this.Hide();
+                db.Show();
             }
             else
             {
-                MessageBox.Show("Usuario o Contraseña incorrectos.");
+                MessageBox.Show("Usuario o Contraseña incorrecto");
             }
+            conexion.Close();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

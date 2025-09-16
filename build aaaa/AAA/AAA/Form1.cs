@@ -57,19 +57,6 @@ namespace AAA
             this.Hide();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            if(textBox1.Text=="Usuario" && textBox2.Text == "Contraseña")
-            {
-                MessageBox.Show("Bienvenido.");
-                Form3 reg = new Form3();
-                reg.Show();
-            }
-            else
-            {
-                MessageBox.Show("Usuario o Contraseña incorrectos.");
-            }
-        }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
