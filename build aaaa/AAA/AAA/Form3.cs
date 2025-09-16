@@ -26,7 +26,7 @@ namespace AAA
        
 
 
-        private void button2_Click_1(object sender, EventArgs e)
+        private void button2_Click_1(object sender, EventArgs e) //sIERRA HUECOOOOOOOOOOOOOOOOO//
         {
             conexion.Open();
             string consulta = "select * from loginA where usuario= '" + textBox1.Text + "' and contrasena='" + textBox2.Text + "'";
