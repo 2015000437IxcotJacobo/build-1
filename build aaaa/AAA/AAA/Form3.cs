@@ -62,6 +62,7 @@ namespace AAA
                 MessageBox.Show("Bienvenido.");
                 Form1 reg = new Form1();
                 reg.Show();
+                this.Hide();
             }
             else
             {
@@ -85,7 +86,7 @@ namespace AAA
             if (string.IsNullOrEmpty(textBox1.Text))
             {
                 textBox1.Text = userPlaceHolder;
-                textBox1.ForeColor = Color.IndianRed;
+                textBox1.ForeColor = Color.RosyBrown;
             }
         }
         private void quitarPlacehoderUser(object sender, EventArgs e)
@@ -101,13 +102,8 @@ namespace AAA
             if (string.IsNullOrEmpty(textBox2.Text))
             {
                 textBox2.Text = passPlaceHolder;
-                textBox2.ForeColor = Color.IndianRed;
+                textBox2.ForeColor = Color.RosyBrown;
             }
-        }
-        private void salirPass(object sender, EventArgs e)
-        {
-            verActivado = false;
-            button1.BackgroundImage = Properties.Resources.esconder;
         }
 
         private void quitarPlacehoderPass(object sender, EventArgs e)
@@ -122,22 +118,19 @@ namespace AAA
         private void Form3_Load(object sender, EventArgs e)
         {
             textBox1.Text = userPlaceHolder;
-            textBox1.ForeColor = Color.IndianRed;
+            textBox1.ForeColor = Color.RosyBrown;
 
             textBox1.Enter += quitarPlacehoderUser;
             textBox1.Leave += colocarPlacehoderUser;
 
             textBox2.Text = passPlaceHolder;
-            textBox2.ForeColor = Color.IndianRed;
+            textBox2.ForeColor = Color.RosyBrown;
 
             textBox2.Enter += quitarPlacehoderPass;
             textBox2.Enter += (s, ev) => { if (!verActivado) textBox2.UseSystemPasswordChar = true; };
             textBox2.Leave += colocarPlacehoderPass;
 
-            if (textBox2.Text != passPlaceHolder)
-            {
-                textBox2.Leave += salirPass;
-            }
+
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -156,5 +149,9 @@ namespace AAA
             }
         }
 
+        private void Form3_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

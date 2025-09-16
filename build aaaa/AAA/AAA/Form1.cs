@@ -298,5 +298,27 @@ namespace AAA
             comboBox2.Items.AddRange(items);
             
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Form3 reg = new Form3();
+            reg.Show();
+            this.Close();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void textBox7_Leave(object sender, EventArgs e)
+        {
+            if (textBox7.Text.Any(char.IsLetter))
+            {
+                MessageBox.Show("Solo se permiten números.");
+                textBox7.Text = "";
+                textBox7.Focus();
+            }
+        }
     }
 }
