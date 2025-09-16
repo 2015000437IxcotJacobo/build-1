@@ -21,6 +21,19 @@ holter int,
 consulta varchar(100),
 medico varchar(100)
 );
+
+drop table loginA;
+create table loginA(
+	loginId int identity,
+	usuario varchar(100),
+	contrasena varchar(100),
+	nombre varchar(100),
+	apellido varchar(100),
+	correo varchar(100)
+);
+insert into loginA(usuario, contrasena, nombre, apellido)
+values('admin', 'AAADB', 'Administrador', 'AAA')
+
 drop table campos2;
 
 --insert into campos1(fecha, codigofac, nombreyapellido, edad, eg, referencia, telefonos, motivo, diagnostico, agendar, 
